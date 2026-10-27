@@ -1,0 +1,15 @@
+{
+  "name": "gramseva",
+  "version": "1.0.0",
+  "description": "GramSeva – A Digital Platform for Accessible Local Services",
+  "scripts": {
+    "dev": "npm run start:all",
+    "start:all": "node scripts/start-all.js",
+    "start:server": "cd server && npm run dev",
+    "start:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["gramseva", "local-services", "community-service-internship"],
+  "author": "GramSeva Team",
+  "license": "ISC"
+}
